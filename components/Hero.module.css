@@ -1,0 +1,20 @@
+/* Hero.module.css */
+.logoImage {
+  max-width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* ensures the image is centered as a block-level element */
+}
+
+@media only screen and (max-width: 600px) {
+  .logoImage {
+    max-width: 80%;
+  }
+}
+
+.videoWrapper {
+  max-width: 640px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the video */
+  aspect-ratio: 16 / 9; /* Maintain the aspect ratio */
+}

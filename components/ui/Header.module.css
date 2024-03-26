@@ -1,0 +1,14 @@
+/* Hero.module.css */
+.logoImage {
+  max-width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* ensures the image is centered as a block-level element */
+}
+
+@media only screen and (max-width: 600px) {
+  .logoImage {
+    max-width: 80%;
+  }
+}
