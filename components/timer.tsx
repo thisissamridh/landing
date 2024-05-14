@@ -9,7 +9,7 @@ const Timer: React.FC = () => {
 
     const calculateEndTime = (): Date => {
         let currentYear = new Date().getFullYear();
-        return new Date(currentYear, 3, 25); // April is month 3 (zero-indexed)
+        return new Date(currentYear, 4, 25); // April is month 3 (zero-indexed)
     };
 
     const calculateTimeLeft = (endTime: Date): Record<string, number> => {
